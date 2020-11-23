@@ -23,6 +23,7 @@ class App extends React.Component {
                 <div className="avatar-container">
                 
                 </div>
+                <div className="left-rule" />
             </div>
 
         );
