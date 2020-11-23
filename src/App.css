@@ -1,0 +1,35 @@
+.post {
+    position: relative;
+    left: 50px;
+}
+
+.containerStyle {
+    background-color: black;
+    width: 750px;
+    height: 20px;
+    display: flex;
+    justify-content: flex-end;
+    transform: skew(45deg);
+    padding-right: 5px;
+    position: relative;
+    z-index: 1;
+}
+
+.divStyle {
+    background-color: gold;
+    width: 7px;
+    height: 100%;
+    margin: 0 5px;
+    box-sizing: border-box;
+}
+
+.avatar-container {
+    background-color: dimgray;
+    width: 200px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    right: -10px;
+    bottom: 20px;
+}

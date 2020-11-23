@@ -12,7 +12,19 @@ import './App.css';
 class App extends React.Component {
     render() {
         return (
-            <h1>Hello World</h1>
+            <div className="post">
+                <div className="containerStyle">
+                    <div className="divStyle" />
+                    <div className="divStyle" />
+                    <div className="divStyle" />
+                    <div className="divStyle" />
+                    <div className="divStyle" />
+                </div>
+                <div className="avatar-container">
+                
+                </div>
+            </div>
+
         );
     }
 }
