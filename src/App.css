@@ -1,17 +1,25 @@
+:root {
+    --primary-color: white;
+    --trim-color: black;
+}
+
+body {
+    background-color: var(--primary-color);
+}
+
 .post {
     position: relative;
-    left: 50px;
     background-color: rgba(0, 0, 0, 0.2);
     width: 755px;
     padding: 0;
     height: 900px;
-    border-bottom-left-radius: 15px;
-    border-top-left-radius: 15px;
-    z-index: 1;
+    margin: 30px;
+    box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.5);
+    border-bottom-right-radius: 8px;
 }
 
 .containerStyle {
-    background-color: black;
+    background-color: var(--trim-color);
     width: 99.5%;
     height: 20px;
     display: flex;
@@ -19,13 +27,14 @@
     padding-right: 20px;
     position: relative;
     z-index: 1;
-    clip-path: polygon(0 0, calc(100% - 17px) 0, 100% 100%, 0 100%);
-    z-index: 4;
+    clip-path: polygon(0 0, calc(100% - 17px) 0, calc(100% - 1px) 100%, 0 100%);
     border-top-left-radius: 50px;
+    left: -15px;
+    top: -19px;
 }
 
 .divStyle {
-    background-color: white;
+    background-color: var(--primary-color);
     width: 7px;
     height: 100%;
     margin: 0 5px;
@@ -34,26 +43,22 @@
 }
 
 .avatar-container {
-    background-color: dimgray;
+    background-color: rgba(0, 0, 0, 0.5);
     width: 200px;
     height: 200px;
     margin: 0;
     padding: 0;
     position: relative;
-    right: -15px;
     bottom: 20px;
     border-bottom-right-radius: 50%;
-    box-shadow: 0 0 0 0 black;
 }
 
 .left-rule {
     height: 100%;
     width: 15px;
-    background-color: black;
+    background-color: var(--trim-color);
     position: absolute;
     top: 0;
-    left: 0;
-    border-bottom-left-radius: 50px;
-    border-top-left-radius: 50px;
-    z-index: 2;
+    left: -15px;
+    border-bottom-left-radius: 100%;
 }
