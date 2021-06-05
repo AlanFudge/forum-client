@@ -9,13 +9,15 @@ body {
 
 .post {
     position: relative;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.1);
     width: 755px;
     padding: 0;
-    height: 900px;
+    height: 800px;
     margin: 30px;
-    box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.5);
+    box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.3);
+    filter: drop-shadow(3px 3px 4px);
     border-bottom-right-radius: 8px;
+    backdrop-filter: blur(4px);
 }
 
 .containerStyle {
@@ -51,6 +53,13 @@ body {
     position: relative;
     bottom: 20px;
     border-bottom-right-radius: 50%;
+    overflow: hidden;
+}
+
+.avatar {
+    height: auto;
+    width: 100%;
+    object-fit: contain;
 }
 
 .left-rule {
