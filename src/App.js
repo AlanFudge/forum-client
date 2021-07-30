@@ -21,11 +21,10 @@ class App extends React.Component {
                     <div className="divStyle" />
                 </div>
                 <div className="avatar-container">
-
+                    <img className="avatar" src="../public/assets/kevin-wolf.jpg"></img>
                 </div>
                 <div className="left-rule" />
             </div>
-
         );
     }
 }
